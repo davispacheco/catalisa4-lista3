@@ -10,19 +10,21 @@ public class CalculadoraReajusteSalarial {
         System.out.println("Informe qual o seu salário:");
         double salarioAntigo = input.nextDouble();
         input.close();
-        double reajuste;
+        double percentual;
         if (salarioAntigo < 280) {
-            reajuste = salarioAntigo * 0.2;
+            percentual = 0.2;
         } else if (salarioAntigo >= 280 && salarioAntigo < 700) {
-            reajuste = salarioAntigo * 0.15;
+            percentual = 0.15;
         } else if (salarioAntigo >= 700 && salarioAntigo < 1500) {
-            reajuste = salarioAntigo * 0.1;
+            percentual = 0.1;
         } else {
-            reajuste = salarioAntigo * 0.05;
+            percentual = 0.05;
         }
+        double reajuste = salarioAntigo * percentual;
         double salarioNovo = salarioAntigo + reajuste;
         System.out.printf("Salário antigo: R$%.2f", salarioAntigo);
-        System.out.printf("\nValor adicional de reajuste: R$%.2f", reajuste);
+        System.out.println("\nPercentual aplicado: " + (percentual * 100) + "%");
+        System.out.printf("Valor adicional de reajuste: R$%.2f", reajuste);
         System.out.printf("\nNovo salário: R$%.2f", salarioNovo);
     }
 }
