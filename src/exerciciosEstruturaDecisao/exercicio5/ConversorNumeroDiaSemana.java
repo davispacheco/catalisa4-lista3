@@ -6,7 +6,7 @@ public class ConversorNumeroDiaSemana {
 
     public static void main(String[] args) {
 
-Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Digite sua opção:");
         int opcao = input.nextInt();
         switch (opcao) {
@@ -21,7 +21,7 @@ Scanner input = new Scanner(System.in);
                 break;
             case 4:
                 System.out.println("Dia da semana: Quarta-feira");
-break;
+                break;
             case 5:
                 System.out.println("Dia da semana: Quinta-feira");
                 break;
