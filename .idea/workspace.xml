@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e85fc9bf-457f-49a7-b275-05eeb68307ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exerciciosEstruturaRepeticao/exercicio1/ContagemNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exerciciosEstruturaRepeticao/exercicio2/CalculadoraMediaNumerosIndeterminados.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exerciciosEstruturaDecisao/exercicio5/ConversorNumeroDiaSemana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exerciciosEstruturaDecisao/exercicio5/ConversorNumeroDiaSemana.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +38,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ContagemNumeros">
+  <component name="RunManager" selected="Application.CalculadoraMediaNumerosIndeterminados">
     <configuration name="CalculadoraMediaNotasParciaisAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exerciciosEstruturaDecisao.exercicio3.CalculadoraMediaNotasParciaisAluno" />
       <module name="catalisa4-lista3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exerciciosEstruturaDecisao.exercicio3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraMediaNumerosIndeterminados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exerciciosEstruturaRepeticao.exercicio2.CalculadoraMediaNumerosIndeterminados" />
+      <module name="catalisa4-lista3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exerciciosEstruturaRepeticao.exercicio2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,26 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoMaisBarato" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exerciciosEstruturaDecisao.exercicio2.ProdutoMaisBarato" />
-      <module name="catalisa4-lista3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exerciciosEstruturaDecisao.exercicio2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculadoraMediaNumerosIndeterminados" />
         <item itemvalue="Application.ContagemNumeros" />
         <item itemvalue="Application.ConversorNumeroDiaSemana" />
         <item itemvalue="Application.CalculadoraReajusteSalarial" />
         <item itemvalue="Application.CalculadoraMediaNotasParciaisAluno" />
-        <item itemvalue="Application.ProdutoMaisBarato" />
       </list>
     </recent_temporary>
   </component>
