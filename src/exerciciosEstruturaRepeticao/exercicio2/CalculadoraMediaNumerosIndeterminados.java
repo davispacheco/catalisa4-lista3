@@ -21,7 +21,7 @@ public class CalculadoraMediaNumerosIndeterminados {
                 } else {
                     soma += numero;
                 }
-                int media = soma / quantidadeNumeros;
+                double media = (double) soma / (double) quantidadeNumeros;
                 System.out.println("A média dos números informados é: " + media);
             }
             input.close();
