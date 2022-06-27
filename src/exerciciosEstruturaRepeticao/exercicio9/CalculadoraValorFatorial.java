@@ -15,7 +15,7 @@ public class CalculadoraValorFatorial {
             int contador = respostaUsuario;
             int valorFatorial = 0;
             while (contador >= 1) {
-                valorFatorial += contador;
+                valorFatorial *= contador;
                 contador--;
             }
             System.out.println("O valor fatorial de " + respostaUsuario + " é: " + valorFatorial);
