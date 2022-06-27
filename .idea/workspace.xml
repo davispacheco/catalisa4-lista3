@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e85fc9bf-457f-49a7-b275-05eeb68307ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exerciciosEstruturaRepeticao/exercicio5/IncrementadorNumero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exerciciosEstruturaRepeticao/exercicio6/CalculadoraSomaNumerosImpares.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IncrementadorNumero">
+  <component name="RunManager" selected="Application.CalculadoraSomaNumerosImpares">
     <configuration name="CalculadoraMediaNumerosIndeterminados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exerciciosEstruturaRepeticao.exercicio2.CalculadoraMediaNumerosIndeterminados" />
       <module name="catalisa4-lista3" />
@@ -52,12 +52,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculadoraSomaNumerosPositivos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exerciciosEstruturaRepeticao.exercicio4.CalculadoraSomaNumerosPositivos" />
+    <configuration name="CalculadoraSomaNumerosImpares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exerciciosEstruturaRepeticao.exercicio6.CalculadoraSomaNumerosImpares" />
       <module name="catalisa4-lista3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exerciciosEstruturaRepeticao.exercicio4.*" />
+          <option name="PATTERN" value="exerciciosEstruturaRepeticao.exercicio6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContagemNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exerciciosEstruturaRepeticao.exercicio1.ContagemNumeros" />
+    <configuration name="CalculadoraSomaNumerosPositivos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exerciciosEstruturaRepeticao.exercicio4.CalculadoraSomaNumerosPositivos" />
       <module name="catalisa4-lista3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exerciciosEstruturaRepeticao.exercicio1.*" />
+          <option name="PATTERN" value="exerciciosEstruturaRepeticao.exercicio4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculadoraSomaNumerosImpares" />
         <item itemvalue="Application.IncrementadorNumero" />
         <item itemvalue="Application.CalculadoraSomaNumerosPositivos" />
         <item itemvalue="Application.NumeroMenorMaior" />
         <item itemvalue="Application.CalculadoraMediaNumerosIndeterminados" />
-        <item itemvalue="Application.ContagemNumeros" />
       </list>
     </recent_temporary>
   </component>
